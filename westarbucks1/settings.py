@@ -1,6 +1,7 @@
 
 from my_settings import DATABASES, SECRET_KEY
 from pathlib import Path
+
 import pymysql
 
 pymysql.install_as_MySQLdb()
@@ -31,6 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'products',
 ]
 
 MIDDLEWARE = [
